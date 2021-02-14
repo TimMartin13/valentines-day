@@ -35,6 +35,7 @@ var listen = function () {
   };
   var alpha = 0.1;
   h1.onclick = function (e) {
+    e.preventDefault();
     document.querySelector('p').style.display = "none";
     h1.style.color = 'rgba(238,85,85,'+alpha+')';
     document.body.style.backgroundColor = 'rgba(238,85,85,'+alpha+')';

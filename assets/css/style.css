@@ -32,3 +32,6 @@ body {
     text-transform: uppercase;
     padding: 1em;
   }
+
+  ::selection { background: transparent; } 
+  ::-moz-selection { background: transparent; }
