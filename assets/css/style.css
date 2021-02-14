@@ -15,6 +15,9 @@ body {
     z-index: 1;
     filter: contrast(3);
   }
+  .disable-dbl-tap-zoom {
+    touch-action: manipulation;
+  }
   h1 {
     width: 100vw;
     height: 100vh;
@@ -22,12 +25,13 @@ body {
     z-index: 2;
     color: #eee;
     transition: color 1s ease-in-out;
-    font-size: 8em;
+    font-size: 7em;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center; 
     cursor: pointer;
+    /* padding: 1em; */
   }
   p#clickHere {
     text-transform: uppercase;
